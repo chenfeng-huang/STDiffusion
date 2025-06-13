@@ -1,0 +1,36 @@
+dataset: "weather"
+
+train:
+  epochs: 500
+  batch_size: 128
+  lr: 1.0e-3
+  seq_len: 24
+
+score_network:
+  res_layers: 5
+  channels: 128
+  nheads: 6
+  num_steps: 500
+  diffusion_embedding_dim: 128
+  freq_tier: 1
+  seq_len: 24
+  lma_affine: True
+  revin_affine: False
+  t_enc_att: 'full'
+  s_enc_att: 'full'
+  enc_att_mask: True
+  season_att: 'full'
+  season_att_mask: False
+  corr_att: 'full'
+  corr_att_mask: False
+  
+diff_model:
+  is_conditional: False
+  beta_start: 0.0001
+  beta_end: 0.5
+  schedule: 'linear'
+  sample_size: 256
+  sample_steps: 500
+
+  
+

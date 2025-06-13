@@ -1,0 +1,35 @@
+dataset: "ETTh2"
+
+train:
+  epochs: 1000
+  batch_size: 128
+  lr: 1.0e-3
+  seq_len: 256
+
+score_network:
+  res_layers: 5
+  channels: 128
+  nheads: 6
+  num_steps: 800
+  diffusion_embedding_dim: 128
+  freq_tier: 1
+  seq_len: 256
+  lma_affine: True
+  revin_affine: True
+  t_enc_att: 'full'
+  s_enc_att: 'full'
+  enc_att_mask: True
+  season_att: 'full'
+  season_att_mask: True
+  corr_att: 'full'
+  corr_att_mask: True
+  
+diff_model:
+  is_conditional: False
+  beta_start: 0.0001
+  beta_end: 0.5
+  schedule: 'linear'
+  sample_size: 256
+  sample_steps: 800
+  
+

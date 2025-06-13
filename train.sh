@@ -1,0 +1,1 @@
+python models/trainer.py --config stock --seed 123 --note generate_uncond_24 --action train 
