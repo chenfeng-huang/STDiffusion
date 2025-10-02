@@ -1,7 +1,7 @@
 # STDiffusion (ICDM 2025)
 ![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.4.1+cu121-orange.svg)
-[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=mobkageyama/STDiffusion)](https://dependabot.com)
+![Dependabot enabled](https://img.shields.io/badge/Dependabot-enabled-brightgreen?logo=dependabot)
 
 
 Official implementation for STDiffusion, published in ICDM 2025.
@@ -135,7 +135,7 @@ These evaluation materials provide reproducible results and serve as reference i
 ## Citation
 If you use this code in your research, please cite:
 ```bibtex
-@inproceedings{ma2025stdiffusion,
+@inproceedings{2025stdiffusion,
   title={STDiffusion: Structure-aware Time Series Generation with Diffusion Models},
   author={Ma, Zixuan and Huang, Chenfeng},
   booktitle={IEEE International Conference on Data Mining (ICDM)},
