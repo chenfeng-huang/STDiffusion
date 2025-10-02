@@ -1,0 +1,36 @@
+version: 2
+updates:
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"   # UTC
+    open-pull-requests-limit: 10
+    reviewers: ["chenfeng-huang"]
+    assignees: ["chenfeng-huang"]
+    commit-message:
+      prefix: "deps"
+      include: "scope"
+    labels: ["dependencies", "python"]
+    groups:
+      pytorch-ecosystem:
+        patterns:
+          - "torch"
+          - "torchvision"
+          - "torchaudio"
+          - "tensorboard*"
+      data-science:
+        patterns:
+          - "numpy*"
+          - "pandas*"
+          - "scipy*"
+          - "scikit-learn*"
+          - "matplotlib*"
+          - "seaborn*"
+      utilities:
+        patterns:
+          - "tqdm*"
+          - "pyyaml*"
+          - "pillow*"
+          - "h5py*"
