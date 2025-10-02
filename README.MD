@@ -134,7 +134,7 @@ These evaluation materials provide reproducible results and serve as reference i
 ## Citation
 If you use this code in your research, please cite:
 ```bibtex
-@inproceedings{ma2025stdiffusion,
+@inproceedings{stdiffusion,
   title={STDiffusion: Structure-aware Time Series Generation with Diffusion Models},
   author={Ma, Zixuan and Huang, Chenfeng},
   booktitle={IEEE International Conference on Data Mining (ICDM)},
