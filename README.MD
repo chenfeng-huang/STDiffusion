@@ -22,7 +22,7 @@ git clone https://github.com/mobkageyama/STDiffusion.git
 cd STDiffusion
 ```
 ### 2. Dataset Setup
-Download the required datasets from [Google Drive](https://drive.google.com/drive/folders/1CfHXyLcJw9FTwiF3QC9izD0qBzldqfAh?usp=sharing)
+Download the preprocessed datasets (with timestamps removed) from [Google Drive](https://drive.google.com/drive/folders/1CfHXyLcJw9FTwiF3QC9izD0qBzldqfAh?usp=sharing)
 
 
 Place the downloaded files in the `datasets/` directory. The structure should look like:
