@@ -18,7 +18,7 @@ Zixuan Ma, Chenfeng Huang
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/mobkageyama/STDiffusion.git
+git clone https://github.com/chenfeng-huang/STDiffusion.git
 cd STDiffusion
 ```
 ### 2. Dataset Setup
